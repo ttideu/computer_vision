@@ -34,4 +34,5 @@
 요구 사항
 Python 3.x
 OpenCV (opencv-python)
+
 NumPy
