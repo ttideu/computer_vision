@@ -9,8 +9,8 @@ setup_data.py - train.py - result.py
 
 ## 구조
 📦 Project Root
- ┣ 📂 datasets           # 데이터셋 (자동 생성)
- ┣ 📂 runs               # 학습 결과 및 모델 가중치 (자동 생성)
+ ┣ 📂 datasets           # 데이터셋 저장소 (자동 생성)
+ ┣ 📂 runs               # 학습 결과 및 모델 가중치 저장소 (자동 생성)
  ┣ 📜 setup_data.py      # 데이터 다운로드, 전처리 및 라벨링 생성
  ┣ 📜 train.py           # YOLOv8 모델 학습 설정 및 실행
  ┣ 📜 result.py          # 학습 결과 평가 및 그래프 시각화
@@ -23,4 +23,5 @@ setup_data.py - train.py - result.py
 * OpenCV, NumPy, Pandas, Matplotlib, Hugging Face Datasets
 
 ### 필수 라이브러리
+
 pip install ultralytics opencv-python numpy pandas matplotlib datasets tqdm
