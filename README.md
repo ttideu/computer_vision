@@ -32,7 +32,7 @@
 
 ## 주요 기능
 * **AI 객체 탐지**: YOLOv8n 모델을 활용한 음식 위치 및 종류 인식
-* **영양 분석**: 메이저 브랜드(맥도날드, BBQ, 도미노 등) 평균 데이터를 기반으로 칼로리/탄단지 계산
+* **영양 분석**: 메이저 브랜드 평균 데이터를 기반으로 칼로리/탄단지 계산
 * **AR 시각화**: OpenCV를 활용하여 음식 위에 영양 정보를 실시간 오버레이
 * **검증 자동화**: Pytest를 통한 로직 단위 테스트 수행
 
@@ -44,4 +44,5 @@
 ### 필수 라이브러리 설치
 ```bash
 pip install ultralytics opencv-python numpy pandas matplotlib datasets tqdm pytest
+
 ```
