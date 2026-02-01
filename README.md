@@ -1,8 +1,8 @@
 # AI Computer Vision 기반 식단 관리 및 칼로리 분석 시스템
 
 ## 개요
-**YOLOv8** 객체 탐지 모델과 **OpenCV** 이미지 처리 기술을 결합하여, 음식 이미지를 인식하고 영양 정보를 분석하는 **AI 식단 관리 솔루션(Smart Calorie Cam)** 입니다.
-단순한 객체 탐지를 넘어, 메이저 브랜드의 영양 성분 평균값을 기반으로 칼로리를 산출하며, **Unit Test**를 통해 비즈니스 로직의 안정성을 검증했습니다.
+YOLOv8 객체 탐지 모델과 OpenCV 이미지 처리 기술을 결합하여, 음식 이미지를 인식하고 영양 정보를 분석하는 AI 식단 관리 솔루션입니다.<br>
+객체를 탐지하여 칼로리를 산출하며, Unit Test를 통해 비즈니스 로직의 안정성을 검증했습니다.
 
 ## 실행 순서
 본 프로젝트는 아래 순서대로 실행해야 정상적으로 작동합니다.
@@ -46,3 +46,4 @@
 pip install ultralytics opencv-python numpy pandas matplotlib datasets tqdm pytest
 
 ```
+
