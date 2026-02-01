@@ -10,11 +10,11 @@ YOLOv8 객체 탐지 모델과 OpenCV 이미지 처리 기술을 결합하여, �
 1. **데이터셋 구축**: `setup_data.py`
    - Food-101 데이터 다운로드 및 640x640 전처리
 2. **모델 학습**: `train.py`
-   - YOLOv8 모델 학습 (Epoch 150, Early Stopping, Augmentation 적용)
+   - YOLOv8 모델 학습
 3. **로직 검증**: `test_calorie.py`
    - Pytest를 활용한 영양소 계산 로직 무결성 검증
 4. **서비스 실행**: `main_image.py`
-   - 최종 결과물 시연 및 AR 오버레이 출력
+   - 최종 결과물 시연
 
 ## 구조
 ```text
@@ -33,7 +33,7 @@ YOLOv8 객체 탐지 모델과 OpenCV 이미지 처리 기술을 결합하여, �
 ## 주요 기능
 * **AI 객체 탐지**: YOLOv8n 모델을 활용한 음식 위치 및 종류 인식
 * **영양 분석**: 메이저 브랜드 평균 데이터를 기반으로 칼로리/탄단지 계산
-* **AR 시각화**: OpenCV를 활용하여 음식 위에 영양 정보를 실시간 오버레이
+* **AR 시각화**: OpenCV를 활용하여 음식 위에 영양 정보를 오버레이
 * **검증 자동화**: Pytest를 통한 로직 단위 테스트 수행
 
 ## 환경 및 설치
@@ -46,4 +46,5 @@ YOLOv8 객체 탐지 모델과 OpenCV 이미지 처리 기술을 결합하여, �
 pip install ultralytics opencv-python numpy pandas matplotlib datasets tqdm pytest
 
 ```
+
 
