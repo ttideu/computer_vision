@@ -21,11 +21,11 @@ YOLOv8 객체 탐지 모델과 OpenCV 이미지 처리 기술을 결합하여, �
 📦 Project Root
  ┣ 📂 datasets            # 학습용 데이터셋 (setup_data.py 실행 시 생성)
  ┣ 📂 runs                # 학습 결과, 모델 가중치 및 그래프 (train.py 실행 시 생성)
- ┣ 📜 setup_data.py       # Food-101 데이터 다운로드, 리사이즈(640px) 및 라벨링
+ ┣ 📜 setup_data.py       # Food-101 데이터 다운로드, 리사이즈 및 라벨링
  ┣ 📜 train.py            # YOLOv8 모델 학습 설정 및 실행
  ┣ 📜 calorie_calc.py     # [Core] 영양소 계산기 및 브랜드 평균 DB 클래스
  ┣ 📜 test_calorie.py     # [Test] 계산 로직 검증을 위한 Unit Test (Pytest)
- ┣ 📜 main_image.py       # [Main] AI 객체 탐지 및 영양 정보 시각화 (앱 구동)
+ ┣ 📜 main_image.py       # [Main] AI 객체 탐지 및 영양 정보 시각화
  ┣ 📜 data.yaml           # 데이터셋 경로 및 클래스 설정
  ┗ 📜 README.md           # 프로젝트 설명 문서
 ```
@@ -46,5 +46,6 @@ YOLOv8 객체 탐지 모델과 OpenCV 이미지 처리 기술을 결합하여, �
 pip install ultralytics opencv-python numpy pandas matplotlib datasets tqdm pytest
 
 ```
+
 
 
